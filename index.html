@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <form class="container">
+  <form id="form" class="container">
     <nav>
       <h1 class="nav-title">English <i class="fa-solid fa-chevron-down"></i></h1>
     </nav>
@@ -27,14 +27,14 @@
         <div class="right-line"></div>
       </div>
       <div class="form">
-        <input class="login" type="text" placeholder="Phone number, username, or email">
-        <input class="password" type="text" placeholder="Password">
+        <input id="login" class="login" type="text" placeholder="Phone number, username, or email">
+        <input id="password" class="password" type="text" placeholder="Password">
       </div>
       <div class="forgot">
         <a class="forgot-link" href="#">Forgot password?</a>
       </div>
       <div class="btn">
-        <a class="login-btn" href="#">Log In</a>
+        <button class="login-btn" href="#">Log In</button>
       </div>
       <div class="sign-up">
         <span class="sign-up-text">Don't have an account? <a class="sign-up-link" href="#">Sign up</a></span>

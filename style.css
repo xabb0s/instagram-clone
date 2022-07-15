@@ -135,6 +135,7 @@ input::placeholder {
 .login-btn {
   font-size: 15px;
   display: flex;
+  border: none;
   justify-content: center;
   align-items: center;
   gap: 5px;
@@ -173,8 +174,4 @@ footer {
   position: absolute;
   bottom: 0;
   padding-bottom: 20px;
-}
-
-.onclick {
-  background: #0095F6;
 }

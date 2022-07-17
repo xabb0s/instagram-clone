@@ -130,6 +130,7 @@ input::placeholder {
 .btn {
   width: 100%;
   padding-top: 20px;
+  cursor: pointer;
 }
 
 .login-btn {
@@ -146,6 +147,7 @@ input::placeholder {
   background: #0095F6;
   border-radius: 5px;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .sign-up {
